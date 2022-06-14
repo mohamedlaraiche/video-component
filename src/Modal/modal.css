@@ -1,0 +1,73 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 40vh;
+}
+.App div {
+  width: 100%;
+}
+.cb {
+  background-color: purple;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.volumeBar .volSlide {
+  width: 10px;
+  height: 80px;
+  padding: 2px;
+  position: absolute;
+  bottom: 66px;
+  left: 120px;
+  display: none;
+}
+.volumeBar#dipslayVolBar {
+  display: block;
+}
+.closeBtn {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.closeBtn button {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: #800080;
+  display: flex;
+  margin: 10px 0px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: white;
+  border-radius: 20px 20px 10px 40px;
+}
+
+.closeBtn button:hover {
+  background-color: #b655b6;
+}
+.modalWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  outline: none;
+  max-width: 800px;
+  width: 80%;
+  height: auto;
+}
+#video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 95vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
